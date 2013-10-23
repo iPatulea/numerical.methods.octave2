@@ -1,0 +1,28 @@
+Patulea Ionut
+313CA
+
+README pentru tema 4 Metode Numerice:
+
+	Gen2DPoints:
+		
+		Am 2 variante de impartire: 
+			1. Prima pentru N putere a lui 2. Impart aria in N patratele mici unde dau rand.
+			2. A doua varianta este un rand si atat mult mai inaficient.
+
+	Trapez:
+	
+		Adun ariile trapezelor formate, iar comounerea lor va rezulta chiar aria suprafetei mele.
+
+	MonteCarlo:
+
+		Am urmat pasii descrisi in enunt iar partea cea mai dificila a fost eficientizarea problemei 
+	,daca un punct se afla in poligon sau nu. Primul pas verific intre ce drepte se afla y-ul punctului
+	apoi pentru acele drepte verific cate sunt la dreapta punctului. Daca se afla un numar impar atunci 
+	punctul este in poligon.
+
+	HeartModel:
+
+		Sortez vetorul cu fisierele de intrare si le citesc pe rand. Retin aria trapez, aria montecarlo,
+	si inaltimea, apoi calculez volumul astfel: Fac media aritmetica intre 2 arii consecutive inmultesc cu 
+	inaltimea dintre ele si adun la volum.
+
